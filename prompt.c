@@ -9,7 +9,6 @@ int main(void)
 	printf("$ ");
 	getline(&buf, &n, stdin);
 	printf("%s", buf);
-	printf("Buffer size: %ld\n", n);
 
 	free(buf);
 
